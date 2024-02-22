@@ -1,0 +1,177 @@
+:root {
+    --possition_and_timeline_font_size: 25px;
+    --title: 35px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.main_div{
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+   
+}
+
+
+
+.left_div{
+    background-color: rgba(68,77,94,255);
+    width: 22rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.right_div{
+    background-color: rgb(224, 223, 223);
+    width: 35rem;
+    position: relative;
+    
+}
+
+.full_name{
+    font-size: 3.1rem;
+    margin-bottom: 0;
+}
+
+.call_icon, .email_address_icon, .location_icon{
+
+    width: 1.5rem;
+ 
+}
+
+.call_icon_div, .email_address_icon_div, .location_icon_div{
+   align-items: center;
+   display: flex;
+   margin-right: 10px;
+}
+
+.phone_number_div, .email_address_div, .location_div{
+    display: flex;
+    position: relative;
+   
+    
+}
+
+.work_experiance_div, .personal_project_div, .education_div, .left_main_div{
+
+   
+    margin: 30px;
+
+}
+
+.work_experiance_div{
+    margin-top: 50px;
+}
+.left_main_div{
+
+    margin-top: 0px;
+
+}
+
+.work_experiance_title, .personal_project_title, .educatopn_title{
+
+   
+    font-size: 1.53rem;
+    
+
+}
+.work_posission p{
+
+    font-weight: 900;
+    font-size: 1.2rem;
+  
+
+}
+
+.work_div p, .education_div p {
+
+    margin: 5px 0px;
+    padding: 1 0;
+
+}
+
+.group p, .location p, .work_tasks p, .website p, .theseis, .year{
+
+    font-style: italic;
+
+}
+
+.university{
+
+    font-size: 1.1rem;
+    font-weight: 550;
+
+}
+
+
+
+.education{
+
+    margin-bottom: 1.1rem;
+
+}
+
+.work_experiance_title p, .personal_project_title p, .education_title p {
+    font-size: var(--title);
+    margin: 0;
+    padding: 0px;
+    font-weight: bold;
+
+}
+
+.work_title_and_timeline, .education_place, .personal_project{
+
+    font-size: var(--possition_and_timeline_font_size);
+    font-weight: 800;
+    
+}
+
+.right_div hr{
+
+    height: 3px;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+}
+
+.left_div hr{
+
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: none;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .main_div{
+
+        position: relative;
+        display: flex;
+        justify-content: center;
+        border: 1px solid;  
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+    .left_div{
+       
+        width: 100%;
+
+    }
+    
+    .right_div{
+        
+        width: 100%;
+ 
+    }
+  }
